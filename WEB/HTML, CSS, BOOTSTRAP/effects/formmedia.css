@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(red, yellow, green);
+}
+
+@media (min-width: 850px) and (max-width: 1340px) {
+    label {
+        display: inline-block;
+    }
+    input {
+        display: inline-block;
+    }
+    textarea {
+        display: inline-block;
+    }
+   .hidden {
+       display: none;
+   }
+}
+
+@media (min-width: 1340px) {
+    label {
+        display: inline-block;
+    }
+    input {
+        display: inline-block;
+    }
+    textarea {
+        display: inline-block;
+    }
+   .hidden {
+       display: none;
+   }
+   #br1 {
+        display: none;
+   }
+}

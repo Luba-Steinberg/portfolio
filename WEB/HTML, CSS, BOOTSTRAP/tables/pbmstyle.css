@@ -1,0 +1,56 @@
+div {
+    display: block;
+    background-color: salmon;
+    width: 30%;
+    margin: auto;
+    padding: auto;
+    font-size: large;
+    color: seagreen;
+}
+.redborder {
+    border: solid 15px red;
+}
+.allbut {
+    border: skyblue;
+    display: inline-block;
+    background-color: tan;
+    padding: 10px 15px 10px 15px;
+    margin: 45px;
+}
+.allbut2 {
+    border: skyblue;
+    display: inline-block;
+    background-color: tan;
+    margin: auto;  
+}
+#b1 {
+    color: tomato;
+    border-radius: 40%;
+}
+#b2 {
+    color: violet;
+    border-radius: 75%;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#div2 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    background-color: yellow;
+    color: turquoise;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#margin-right {
+    margin-right: 20px;
+    color: tomato;
+    border-radius: 40%;
+}

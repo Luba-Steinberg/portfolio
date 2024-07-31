@@ -1,0 +1,10 @@
+.numbers li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    background: silver;
+}
+
+.numbers li.max {
+    background: aqua;
+}

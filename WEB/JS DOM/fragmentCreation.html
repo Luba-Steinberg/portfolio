@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./maxColor.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let numbers = [10,25,70,5,2,8];
+        let frag = document.createDocumentFragment();
+        let ul = document.createElement('ul');
+        ul.classList.add("numbers");
+        let max = Math.max(...numbers);
+        frag.append(ul);
+        for (let i=0; i<numbers.length; i++){
+            let li = document.createElement("li");
+            li.textContent = numbers[i];
+            if (numbers[i]===max){
+                li.classList.add("max");
+            }
+            ul.append(li);
+        }
+        document.body.append(frag);
+
+    </script>
+</body>
+</html>

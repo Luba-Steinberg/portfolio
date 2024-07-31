@@ -1,0 +1,8 @@
+.div1 {
+    height: 250 px;
+    width: 75%;
+    background-color: aquamarine;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}

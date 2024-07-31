@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="icon" href="Norton_Motorcycle (1).jpg">
+    <link rel="stylesheet" href="stylehebrew.css">
+</head>
+<body>
+    <header> <h1> בצע הזמנה בדרך קלה </h1></header>
+    <Main><img src="Norton_Motorcycle (1).jpg" alt="motorcylce" width="450px" height="450px"></Main>
+    <fieldset>
+        <legend class="legend1">מחכים להזמנה שלך</legend>
+        <form action="order">
+        <label for="firstname">שם</label>
+        <input type="text" id="firstname">
+        <label for="firstname">שם משפחה</label>
+        <input type="text" id="lastname">
+        <br>
+        <br>
+        <label for="phonenumber">מס' טלפון</label>
+        <input type="number" name="phonenumber" placeholder="0544425718">
+        <br>
+        <br>
+        <label for="email">מייל</label>
+        <input type="text" id="email" placeholder="mymail@mail.com">
+        <br>
+        <br>
+        <label for="city">בחר אזור מגורים</label>
+        <select name="city" id="city">
+            <option value="Jerusalem and area">ירושלים והסביבה</option>
+            <option value="Gush Dan">גוש דן</option>
+            <option value="Haifa and area">חיה וקריות</option>
+            <option value="Negev">נגב</option>
+            <option value="Galil and Golan">גליל וגולן</option>
+        </select>
+        <br>
+        <br>
+        <label for="massege">תאר את החוויה שלך</label>
+        <input type="textarea" id="massege" style="width: 80%; height: 150px;" placeholder="lorem lorem lorem lorem lorem">
+        <br>
+        <br>
+        <p>אופן האיסוף</p>
+        <input type="radio" name="deliveryway" id="pizzadeliver" value="pizzadeliver">
+        <label for="pizzadeliver">שליח פיצה</label>
+        <br>
+        <input type="radio" name="deliveryway" id="yourself" value="clientdelivery">
+        <label for="yourself">לקחת לבד</label>
+        <br>
+        <input type="radio" name="deliveryway" id="intheshop" value="intheshop">
+        <label for="intheshop">לאכול בחנות</label>
+        <br>
+        <p>אופן התשלום</p>
+        <input type="checkbox" name="cash" id="cash" value="cash">
+        <label for="cash">מזומן</label>
+        <br>
+        <input type="checkbox" name="cheque" id="cheque" value="cheque">
+        <label for="cheque">שק</label>
+        <br>
+        <input type="checkbox" name="creditcard" id="creditcard" value="creditcard">
+        <label for="creditcard">כרטיס אשראי</label>
+        <br>
+        <br>
+        <label for="tipping">בחר את התוספת</label>
+        <input list="tippings" name="tipping" id="tipping">
+            <datalist id="tippings">
+                <option value="בצל">
+                <option value="זית">
+                <option value="עגבניה">
+                <option value="תוספת גבינה">
+                <option value="פטריות">
+            </datalist>
+        <br>
+        <br>
+        <label for="boxsize">בחר את גודל הפיצה</label>
+        <input list="boxsizes" name="boxsize" id="boxsize">
+        <datalist id="boxsizes">
+            <option value="אישי">
+            <option value="קטן">
+            <option value="בינוני">
+            <option value="גדול">
+            <option value="גדול מאוד">
+            <option value="ענק">    
+        </datalist>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,62 @@
+img {
+    height: 250px;
+    position: absolute;
+}
+
+.position1 {
+    top: 5px;
+    right: 5px;
+}
+
+.position2 {
+    bottom: 5px;
+    right: 5px;
+}
+
+.position3 {
+    bottom: 5px;
+    left: 5px;
+}
+
+.position4 {
+    top: 5px;
+    left: 5px;
+}
+div {
+    position: relative;
+    height: 650px;
+    width: 85%;
+    border-style: double;
+    border-color: aquamarine;
+}
+
+.positioncenter {
+    top: 350px;
+    left: 750px;
+    
+}
+
+.divfixed {
+    background-color: aquamarine;
+    height: 100%;
+    width: 14%;
+    position: fixed;
+    left: 4px;
+    top: 0px;
+}
+
+input {
+    position: fixed;
+    width: 14%;
+    bottom: 5px;
+    left: 3px;
+}
+
+#imgdivcen {
+    position: absolute;
+    /* margin: auto;
+    display: block; */
+    top: 240px;
+    left: 630px;
+
+}

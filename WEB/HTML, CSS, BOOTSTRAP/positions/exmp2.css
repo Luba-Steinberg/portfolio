@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.yellow {
+    background-color: yellow;
+    border: solid 5px black;
+    color: black;
+    width: 80%;
+    height: 40px;
+    left: 140px;
+    position: absolute;
+}
+
+.div2, .div3, .div4 {
+    width: 600px;
+    height: auto;
+    background-color: aqua;
+    border: black solid 5px;
+    margin: 0 auto 30px;
+}

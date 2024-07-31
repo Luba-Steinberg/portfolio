@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+    height: 55px;
+    padding-top: 35px;
+}
+
+a {
+    color: gray;
+    margin-right: 25px;
+}
+
+.footers {
+    display: flex;
+    justify-content: center;
+}
+
+#bagsTwo {
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+footer {
+    text-align: center;
+    background-color: silver;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+
+.questions {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.information {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}

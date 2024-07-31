@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1 id="title" class="lubashkin">Dom example</h1>
+    <h1 id="title1" class="lubashkin1">Dom example</h1>
+    <h1 id="title2" class="lubashkin2">Dom example</h1>
+    <div class="center big ugly fun">
+        <p>This is an example of DOM</p>
+    </div>
+
+    <script>
+        console.log(document.body);
+        console.log(document.head);
+        console.log(document.getElementById("title"));
+        console.log(document.querySelector("title"));
+        console.log(document.querySelector(".lubashkin"));
+        console.log(document.querySelector("#title"));
+        console.log(document.querySelector("h1"));
+        console.log(document.querySelectorAll("h1"));
+        console.log(document.querySelector("div").classList);
+        console.log(document.querySelector("#title").tagName);
+        console.log(document.querySelector("#title1").tagName);
+        console.log(document.querySelector("#title2").tagName);
+        console.log(document.querySelector(".lubashkin").tagName);
+        console.log(document.querySelector(".lubashkin1").tagName);
+        console.log(document.querySelector(".lubashkin2").tagName);
+        console.log(document.querySelector("h1").id);
+        console.log(document.querySelector("div").textContent);
+        console.log(document.querySelector("div").innerHTML);
+        console.log(document.querySelector(".lubashkin2").innerHTML);
+        
+
+    </script>
+
+</body>
+</html>

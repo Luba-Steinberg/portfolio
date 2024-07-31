@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="icon" href="Norton_Motorcycle (1).jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <h1> Make your order in an easy way! </h1></header>
+    <Main><img src="Norton_Motorcycle (1).jpg" alt="motorcylce" width="450px" height="450px"></Main>
+    <fieldset>
+        <legend class="legend1">Waiting for your order right now</legend>
+        <form action="order">
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname">
+        <label for="firstname">Last name</label>
+        <input type="text" id="lastname">
+        <br>
+        <br>
+        <label for="phonenumber">Phone number</label>
+        <input type="number" name="phonenumber" placeholder="0544425718">
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="text" id="email" placeholder="mymail@mail.com">
+        <br>
+        <br>
+        <label for="city">Select your adress area</label>
+        <select name="city" id="city">
+            <option value="Jerusalem and area">Jerusalem and area</option>
+            <option value="Gush Dan">Gush Dan</option>
+            <option value="Haifa and area">Haifa and area</option>
+            <option value="Negev">Negev</option>
+            <option value="Galil and Golan">Galil and Golan</option>
+        </select>
+        <br>
+        <br>
+        <label for="massege">Write about your experience</label>
+        <input type="textarea" id="massege" style="width: 80%; height: 150px;">
+        <br>
+        <br>
+        <input type="radio" name="deliveryway" id="pizzadeliver" value="pizzadeliver">
+        <label for="pizzadeliver">pizza deliver</label>
+        <br>
+        <input type="radio" name="deliveryway" id="yourself" value="clientdelivery">
+        <label for="yourself">take yourself</label>
+        <br>
+        <input type="radio" name="deliveryway" id="intheshop" value="intheshop">
+        <label for="intheshop">eat in the shop</label>
+        <br>
+        <p>Pay by:</p>
+        <input type="checkbox" name="cash" id="cash" value="cash">
+        <label for="cash">cash</label>
+        <br>
+        <input type="checkbox" name="cheque" id="cheque" value="cheque">
+        <label for="cheque">cheque</label>
+        <br>
+        <input type="checkbox" name="creditcard" id="creditcard" value="creditcard">
+        <label for="creditcard">creadit card</label>
+        <br>
+        <br>
+        <label for="tipping">Choose your tipping from the list</label>
+        <input list="tippings" name="tipping" id="tipping">
+            <datalist id="tippings">
+                <option value="onion">
+                <option value="olive">
+                <option value="tomato">
+                <option value="extra cheese">
+                <option value="mushrooms">
+            </datalist>
+        <br>
+        <br>
+        <label for="boxsize">Choose the convenient size of the box:</label>
+        <input list="boxsizes" name="boxsize" id="boxsize">
+        <datalist id="boxsizes">
+            <option value="Extrasmall">
+            <option value="Small">
+            <option value="Medium">
+            <option value="Large">
+            <option value="ExtraLarge">
+            <option value="ExtraExtraLarge">    
+        </datalist>
+        </form>
+    </fieldset>
+</body>
+</html>

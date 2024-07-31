@@ -1,0 +1,27 @@
+h1 {
+    background-color: tomato;
+    font-size: small;
+    font-style: oblique;
+}
+
+h1:hover {
+    background-color: turquoise;
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+div {
+    border: thistle;
+    border: solid;
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+}
+
+div:hover {
+    border-color: violet;
+    border-radius: 50%;
+    border: double;
+}
+

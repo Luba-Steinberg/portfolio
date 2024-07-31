@@ -1,0 +1,136 @@
+body {
+    background-color: silver;
+}
+
+.mainContainer {
+    background-color: white;
+    margin: auto;
+    width: 650px;
+    height: 625px;
+    padding: 5px 10px 5px 10px;  
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.row2 {
+    margin-bottom: 5px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.row5 {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+
+.row6 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.box1 {
+    background-color: blue;
+    width: 33%;
+    height: 100px;
+}
+
+.box2 {
+    background-color: blue;
+    width: 33%;
+    height: 100px;
+}
+.box3 {
+    background-color: blue;
+    width: 33%;
+    height: 100px;
+}
+
+.box4 {
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+.box5 {
+    background-color: blue;
+    width: 49.5%;
+    height: 100px;
+}
+
+.box6 {
+    background-color: blue;
+    width: 49.5%;
+    height: 100px;
+}
+
+.box7 {
+    background-color: blue;
+    width: 40%;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.box8 {
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.box9 {
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+}
+
+.box10 {
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.box11 {
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.box12 {
+    background-color: blue;
+    width: 40%;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.box13 {
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+    margin-left: 115px;
+    margin-right: 140px;
+}
+
+.box14 {
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+}

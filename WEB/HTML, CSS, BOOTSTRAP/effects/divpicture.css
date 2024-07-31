@@ -1,0 +1,18 @@
+div {
+    height: 500px;
+    width: 500px;
+    background-color: darkkhaki;
+    border: darkmagenta;
+    border-style: dotted;
+}
+
+img { 
+    opacity: 0;
+    height: 500px;
+    width: 500px;
+}
+
+img:hover {
+    opacity: 1;
+}
+
